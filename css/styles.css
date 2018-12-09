@@ -96,7 +96,7 @@ a:hover {
 
 .profile-image {
 	width: 95%;
-	padding: 0 20px;
+	padding: 0 10px;
 	margin-top: 10px;
 	margin-bottom: 20px;
 	float: right;
@@ -180,37 +180,19 @@ div {
     background: #256E96;
 	}
 
-	.footer-nav {
-	  display: flex;
-	  flex-direction: row;
-	  justify-content: space-between;
-	  margin-right: 0px;
-	}
+.name-footer {
+	float: left;
+}
 
-	.nav.
-	.name-footer {
-	  display: block;
-	  margin-left: 30px;
-		margin-top: 0px;
-	}
+.top-right {
+	float: right;
+	padding-top: 20px;
+	font-weight: bold;
+}
 
-	.footer-ul {
-	  display: block;
-	  list-style-type: none;
-		margin-block-start: 1em;
-    margin-block-end: 1em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
-	}
-
-	.footer-ul li {
-	  display: inline-block;
-	  padding-left: 1.25em;
-	  text-transform: uppercase;
-	  font-weight: bold;
-	  font-size: 15px;
-	}
-
+.footer-ul {
+	display: none;
+}
 
 /* ==============================
 	Medie Queries
@@ -291,7 +273,35 @@ img {
 	display: none;
 }
 
+.footer-nav {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	margin-right: 0px;
+}
 
+.nav.
+.name-footer {
+	display: block;
+	margin-left: 30px;
+	margin-top: 0px;
+}
+
+.footer-ul {
+	display: block;
+	list-style-type: none;
+	margin-block-start: 1em;
+	margin-block-end: 1em;
+	margin-inline-start: 0px;
+	margin-inline-end: 0px;
+}
+
+.footer-ul li {
+	display: inline-block;
+	padding-left: 1.25em;
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size: 15px;
 }
 
 @media only screen and (min-width: 1024px) {
@@ -353,7 +363,7 @@ a:hover {
 }
 
 .name {
-		float: left;
+	float: left;
 }
 
 .top-right {
