@@ -31,7 +31,7 @@ p {
 	text-align: center;
 	padding-left: 10px;
   padding-right: 10px;
-	padding-bottom: 20px;
+	padding-bottom: 30px;
 }
 
 h3 {
@@ -280,7 +280,6 @@ img {
 	margin-right: 0px;
 }
 
-.nav.
 .name-footer {
 	display: block;
 	margin-left: 30px;
@@ -290,10 +289,6 @@ img {
 .footer-ul {
 	display: block;
 	list-style-type: none;
-	margin-block-start: 1em;
-	margin-block-end: 1em;
-	margin-inline-start: 0px;
-	margin-inline-end: 0px;
 }
 
 .footer-ul li {
@@ -302,6 +297,8 @@ img {
 	text-transform: uppercase;
 	font-weight: bold;
 	font-size: 15px;
+}
+
 }
 
 @media only screen and (min-width: 1024px) {
@@ -369,6 +366,4 @@ a:hover {
 .top-right {
 	display: none;
 }
-
-
 }
